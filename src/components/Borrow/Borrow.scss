@@ -1,0 +1,117 @@
+@import "../../index.scss";
+.container-borrow {
+    max-width: 1200px !important;
+}
+
+.borrow-info-panel {
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    .dropdown {
+        min-width: 160px;
+        margin: 0 1em;
+    }
+    .dropdown button {
+        margin-top: 0 !important;
+        min-height: 48px;
+    }
+    .dropdown-item img,
+    .dropdown-toggle img {
+        max-height: 24px;
+        margin-right: 8px;
+        vertical-align: text-top;
+    }
+}
+
+.card-lender{
+    min-height: 430px;
+}
+
+.card-lender h6 {
+    font-size: 1.2rem;
+    font-weight: 700 !important;
+    background: -webkit-linear-gradient(left, #668EB6, #5B97B9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-lender .logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 1em;
+}
+
+.card-lender p{
+    margin-bottom: 1em;
+    min-height: 45px;
+}
+
+.card-lender .flex-between h3 {
+    margin-bottom: 0 !important;
+}
+
+.card-lender .flex-between {
+    padding: .5em 0;
+}
+
+.card-lender .flex-between:last-child {
+    align-items: flex-start;
+}
+
+.card-lender .flex-between:last-child h3 {
+    align-items: flex-start;
+    margin-right: 5em;
+}
+
+.card-lender .provider-assets {
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 1em;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    line-height: 2.6;
+}
+
+.card-lender .provider-assets img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.card-lender button{
+    position: absolute;
+    width: calc(100% - 3em);
+    bottom: 1.5em;
+}
+
+// #section-providers {
+//     display: flex;
+//     flex-direction: row;
+//     place-content: space-evenly;
+//     .provider-card {
+//         width: 18rem;
+//         padding: 12px;
+//         background: rgba(255, 255, 255, 0.1);
+//         height: fit-content;
+//         .card-title {
+//             display: flex;
+//             align-items: center;
+//             img {
+//                 max-height: 64px;
+//                 margin-right: 16px;
+//             }
+//         }
+//         .provider-assets img {
+//             max-height: 32px;
+//             margin-right: 4px;
+//         }
+//     }
+// }

@@ -1,0 +1,44 @@
+.bg-image-panel {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.bg-image-panel:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    background-image: linear-gradient(to bottom right, #000, #0A101);
+    opacity: .9;
+}
+
+.bg-image-panel img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: .5;
+}
+
+
+/* .bg-wallpaper{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.bg-wallpaper::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+} */

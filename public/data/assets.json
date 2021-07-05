@@ -1,0 +1,86 @@
+[
+    {
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "address": "",
+      "image": "wbtc.png"
+    },
+    {
+      "name": "Curve DAO Token",
+      "symbol": "CRV",
+      "address": "",
+      "image": "crv.png"
+    },
+    {
+      "name": "0x",
+      "symbol": "ZRX",
+      "address": "",
+      "image": "zrx.png"
+    },
+    {
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "address": "",
+      "image": "tusd.png"
+    },
+    {
+      "name": "Aave",
+      "symbol": "AAVE",
+      "address": "",
+      "image": "aave.png"
+    },
+    {
+      "name": "Dai",
+      "symbol": "DAI",
+      "address": "",
+      "image": "dai.png"
+    },
+    {
+      "name": "Basic Attention Token",
+      "symbol": "BAT",
+      "address": "",
+      "image": "bat.png"
+    },
+    {
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "address": "",
+      "image": "uni.png"
+    },
+    {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "",
+      "image": "usdc.png"
+    },
+    {
+      "name": "Tether",
+      "symbol": "USDT",
+      "address": "",
+      "image": "usdt.png"
+    },
+    {
+      "name": "Compound",
+      "symbol": "COMP",
+      "address": "",
+      "image": "comp.png"
+    },
+    {
+      "name": "Liquity USD",
+      "symbol": "LUSD",
+      "address": "",
+      "image": "lusd.png"
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "address": "",
+      "image": "eth.png"
+    },
+    {
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "address": "",
+      "image": "link.png"
+    }
+]

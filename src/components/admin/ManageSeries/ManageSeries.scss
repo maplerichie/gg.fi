@@ -1,0 +1,55 @@
+.card-match-list {
+    padding: 0;
+}
+
+.card-match-list>div {
+    // display: flex;
+    // align-items: center;
+    padding: 1.5em;
+    border-bottom: 1px solid #FFF;
+}
+
+.card-match-list>div:last-child {
+    border-bottom: none;
+}
+
+.card-match-list>div>.row {
+    align-items: center;
+}
+
+.card-match-list .col-md-8{
+    padding-right: 2em;
+}
+
+.card-match-list h4 {
+    text-align: center;
+    margin-bottom: 0 !important;
+    background: -webkit-linear-gradient(#80766f, #dcc6ba);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+}
+
+.card-match-list .teams .flex-box.end {
+    justify-content: flex-end;
+}
+
+.card-match-list .teams .flex-box.end h3{
+    text-align: right;
+}
+
+.card-match-list .teams .flex-box.start {
+    justify-content: flex-start;
+}
+
+.card-match-list img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.card-match-list button {
+    margin-top: 0 !important;
+}

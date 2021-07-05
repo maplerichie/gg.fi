@@ -1,0 +1,8 @@
+{
+    "DOMAIN_URL": "https://api.hollo.app/",
+    "API_URL": "https://api.pandascore.co/",
+    "THEME_COLORS": {
+      "PRIMARY": "#007bff",
+      "SECONDARY": "#fc3"
+    }
+  }
